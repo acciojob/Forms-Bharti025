@@ -15,7 +15,7 @@ const handleSubmit=(e)=>{
 
 }
   return (
-        <Card title="Form using useState">
+   
       <form id="form-state-link">
         <input id="full_name" type="text" onChange={()=>setName(e.target.value)}/>
            <input id="email" type="email"onChange={()=>setEmail(e.target.value)}/>
@@ -23,7 +23,7 @@ const handleSubmit=(e)=>{
            <input type="password" id="password_confirmation" onChange={()=>setPassword_confirmation(e.target.value)}/>
            <button onClick={handleSubmit}>Submit</button>
       </form>
-      </Card>
+  
   )
 }
 
