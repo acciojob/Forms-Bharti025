@@ -14,7 +14,7 @@ const FormRef = () => {
     }
 
   return (
-    <div>
+   
         <Card title="Form using Ref">
       <form id="form-ref-link">
         <input id="full_name" type="text" ref={nameRef} placeholder='Full name'/>
@@ -24,7 +24,7 @@ const FormRef = () => {
            <button onClick={handleSubmit}>Submit</button>
       </form>
       </Card>
-    </div>
+   
   )
 }
 

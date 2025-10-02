@@ -2,7 +2,7 @@ import React from 'react'
 import Card from './Card'
 const Form = () => {
   return (
-    <div>
+  
         <Card title="Form">
       <form id="form-link">
         <input id="full_name" type="text"/>
@@ -11,7 +11,7 @@ const Form = () => {
            <input type="password" id="password_confirmation"/>
       </form>
       </Card>
-    </div>
+ 
   )
 }
 

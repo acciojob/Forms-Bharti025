@@ -15,7 +15,6 @@ const handleSubmit=(e)=>{
 
 }
   return (
-    <div>
         <Card title="Form using useState">
       <form id="form-state-link">
         <input id="full_name" type="text" onChange={()=>setName(e.target.value)}/>
@@ -25,7 +24,6 @@ const handleSubmit=(e)=>{
            <button onClick={handleSubmit}>Submit</button>
       </form>
       </Card>
-    </div>
   )
 }
 
