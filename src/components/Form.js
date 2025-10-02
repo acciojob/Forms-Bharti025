@@ -4,7 +4,7 @@ const Form = () => {
   return (
     <div>
         <Card title="Form">
-      <form id="info-form">
+      <form id="form-link">
         <input id="full_name" type="text"/>
            <input id="email" type="email"/>
            <input id="password" type="password"/>

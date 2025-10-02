@@ -16,7 +16,7 @@ const FormRef = () => {
   return (
     <div>
         <Card title="Form using Ref">
-      <form id="info-form">
+      <form id="form-ref-link">
         <input id="full_name" type="text" ref={nameRef} placeholder='Full name'/>
            <input id="email" type="email" ref={emailRef} placeholder='Email'/>
            <input id="password" type="password" ref={passwordRef} placeholder='Password'/>
