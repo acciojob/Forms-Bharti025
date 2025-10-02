@@ -9,15 +9,15 @@ function App() {
     <Router>
       <nav>
         <ul>
-          <li><Link to="/">Form (Basic)</Link></li>
-          <li><Link to="/ref">Form with useRef</Link></li>
-          <li><Link to="/state">Form with useState</Link></li>
+          <li><Link to="/form-link">Form (Basic)</Link></li>
+          <li><Link to="/form-ref-link">Form with useRef</Link></li>
+          <li><Link to="/form-state-link">Form with useState</Link></li>
         </ul>
       </nav>
       <Routes>
-        <Route path="/" element={<Form />} />
-        <Route path="/ref" element={<FormRef />} />
-        <Route path="/state" element={<FormState />} />
+        <Route path="/form-link" element={<Form />} />
+        <Route path="/form-ref-link" element={<FormRef />} />
+        <Route path="/form-state-link" element={<FormState />} />
       </Routes>
     </Router>
   );
