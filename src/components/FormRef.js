@@ -5,6 +5,7 @@ const FormRef = () => {
     const emailRef=useRef("");
      const passwordRef=useRef("");
       const password_confirmRef=useRef("");
+
     const handleSubmit=(e)=>{
      e.preventDefault();
     console.log('Name:', nameRef.current.value);
@@ -14,14 +15,13 @@ const FormRef = () => {
     }
 
   return (
-   
-        <Card title="Form using Ref">
-      <form id="form-ref-link">
+      <Card title="Form using Ref">
+      <form id="info-form" onSubmit={handleSubmit}>
         <input id="full_name" type="text" ref={nameRef} placeholder='Full name'/>
            <input id="email" type="email" ref={emailRef} placeholder='Email'/>
            <input id="password" type="password" ref={passwordRef} placeholder='Password'/>
            <input type="password" id="password_confirmation" ref={password_confirmRef} placeholder='Password_Ref'/>
-           <button onClick={handleSubmit}>Submit</button>
+           <button type="submit">Submit</button>
       </form>
       </Card>
    

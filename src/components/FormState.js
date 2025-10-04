@@ -15,13 +15,13 @@ const handleSubmit=(e)=>{
 
 }
   return (
-   
-      <form id="form-state-link">
+
+      <form id="info-form" onSubmit={handleSubmit}>
         <input id="full_name" type="text" onChange={()=>setName(e.target.value)}/>
            <input id="email" type="email"onChange={()=>setEmail(e.target.value)}/>
            <input id="password" type="password" onChange={()=>setPassword(e.target.value)}/>
            <input type="password" id="password_confirmation" onChange={()=>setPassword_confirmation(e.target.value)}/>
-           <button onClick={handleSubmit}>Submit</button>
+           <button type='submit'>Submit</button>
       </form>
   
   )
